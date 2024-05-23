@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T05:51:10.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="H0x8IZ2A5rtq0lRxNOmo" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T06:39:20.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="okErKnij2XOoHBjuVZj_" version="24.4.6" type="github">
   <diagram name="Page-1" id="V7EgAgGA362zwkshi-_R">
     <mxGraphModel dx="954" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
           <mxGeometry x="600" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="293EK7tKA1xx8MgygA2M-14" value="Send last known co-ordinates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="325" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="293EK7tKA1xx8MgygA2M-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="293EK7tKA1xx8MgygA2M-16">
           <mxGeometry relative="1" as="geometry">
@@ -56,7 +56,7 @@
         <mxCell id="293EK7tKA1xx8MgygA2M-22" value="Initialization&lt;div&gt;Heartbeat Flag = 0&lt;br&gt;&lt;div&gt;OBD Flag = 0&lt;/div&gt;&lt;div&gt;Vehicle Speed = -1&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="160" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="293EK7tKA1xx8MgygA2M-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="293EK7tKA1xx8MgygA2M-16">
+        <mxCell id="293EK7tKA1xx8MgygA2M-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="293EK7tKA1xx8MgygA2M-16" target="293EK7tKA1xx8MgygA2M-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="385" y="840" as="targetPoint" />
           </mxGeometry>
@@ -78,6 +78,12 @@
         </mxCell>
         <mxCell id="293EK7tKA1xx8MgygA2M-37" value="Send Raw GPS data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="293EK7tKA1xx8MgygA2M-40" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="385" y="800" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="293EK7tKA1xx8MgygA2M-41" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="680" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
